@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggy Game</title>
+    <link rel="stylesheet" href="style.css"/>
+<body>
+    <h1>Froggy Game</h1>
+    <p> Help the froggy cross the rivers, avoiding the crocodiles! </p>
+    <p> Use the arrow keys to move the frog. Click Start/Pause to start or pause the game and Reset to reset the game.</p>
+    <button id="start-pause-button"> Start/Pause </button>
+    <button id="reset-button"> Reset </button>
+    <p></p>
+    <button id="easy"> Easy </button>
+    <button id="medium"> Medium </button>
+    <button id="hard"> Hard </button>
+    <h4> Seconds left: <span id="time-left"></span></h4>
+    <h4> Result: <span id="result"></span></h4>
+    <h4> Frogs Saved: <span id="frogs-saved"></span></h4>
+   
+    <div class="grid">
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div class="ending-block"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="croc-left c1"></div>
+        <div class="croc-left c2"></div>
+        <div class="croc-left c3"></div>
+        <div class="croc-left c4"></div>
+        <div class="croc-left c5"></div>
+        <div class="croc-left c1"></div>
+        <div class="croc-left c2"></div>
+        <div class="croc-left c3"></div>
+        <div class="croc-left c4"></div>
+        <div class="croc-right c5"></div>
+        <div class="croc-right c1"></div>
+        <div class="croc-right c2"></div>
+        <div class="croc-right c3"></div>
+        <div class="croc-right c4"></div>
+        <div class="croc-right c5"></div>
+        <div class="croc-right c1"></div>
+        <div class="croc-right c2"></div>
+        <div class="croc-right c3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="croc-left c1"></div>
+        <div class="croc-left c2"></div>
+        <div class="croc-left c3"></div>
+        <div class="croc-left c4"></div>
+        <div class="croc-left c5"></div>
+        <div class="croc-left c1"></div>
+        <div class="croc-left c2"></div>
+        <div class="croc-left c3"></div>
+        <div class="croc-left c4"></div>
+        <div class="croc-right c5"></div>
+        <div class="croc-right c1"></div>
+        <div class="croc-right c2"></div>
+        <div class="croc-right c3"></div>
+        <div class="croc-right c4"></div>
+        <div class="croc-right c5"></div>
+        <div class="croc-right c1"></div>
+        <div class="croc-right c2"></div>
+        <div class="croc-right c3"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block frog"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+        <div class="starting-block"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

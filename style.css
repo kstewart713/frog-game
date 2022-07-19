@@ -1,0 +1,48 @@
+h1{
+    color: darkgreen;
+}
+
+.grid {
+    border: 1px solid black;
+    width: 333px;
+    height: 333px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid div {
+    height: 37px;
+    width: 37px;
+}
+
+.start-pause-button {
+    height: 30px;
+    width: 80px;
+}
+
+.reset-button {
+    height: 30px;
+    width: 80px; 
+}
+
+.ending-block {
+    background-color: blue;
+}
+
+.starting-block {
+    background-color: burlywood;
+}
+
+.c1, .c2, .c3 {
+    background-color: green;
+}
+
+.c4, .c5 {
+    background-color: lightblue;
+}
+
+.frog {
+    background-color: greenyellow;
+}
