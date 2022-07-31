@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Froggy Game</title>
+    <style>
+        body {margin: 0;}
+            
+        ul.topnav {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+        ul.topnav li {float: left;}
+            
+        ul.topnav li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+        ul.topnav li a:hover:not(.active) {background-color: #111;}
+            
+        ul.topnav li a.active {background-color: #04AA6D;}
+            
+        ul.topnav li.right {float: right;}
+            
+        @media screen and (max-width: 600px) {
+              ul.topnav li.right, 
+              ul.topnav li {float: none;}
+            }  
+    </style>
     <link rel="stylesheet" href="style.css"/>
 <body>
     <h1>Froggy Game</h1>
+    <p></p>
+    <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ruth.html">Red Eyed Tree Frog</a></li>
+        <li><a href="frog-game.html">Froggy Game</a></li>
+    </ul>
     <p> Help the froggy cross the rivers, avoiding the crocodiles! </p>
     <p> Use the arrow keys to move the frog. Click Start/Pause to start or pause the game and Reset to reset the game.</p>
     <button id="start-pause-button"> Start/Pause </button>
