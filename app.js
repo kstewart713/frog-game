@@ -38,7 +38,7 @@ function moveFrog(e) {
 
 }
 
-//automoves the crocodiles (calls the move left and right functions) + displays frogs saved
+//automoves the crocodiles (calls the move functions), counts down time + displays frogs saved
 function autoMoveCrocs () {
     currentTime--
     timeLeftDisplay.textContent = currentTime
@@ -147,7 +147,6 @@ function lose() {
     resultDisplay.textContent = "The frog was eaten!"
     clearInterval(timerId)
     clearInterval(outcomeTimer)
-    clearInterval(difficultyTime)
     squares[currentIndex].classList.remove("frog")
     document.removeEventListener("keyup", moveFrog)
     }
@@ -160,7 +159,6 @@ function notime() {
         resultDisplay.textContent = "You ran out of time!"
         clearInterval(timerId)
         clearInterval(outcomeTimer)
-        clearInterval(difficultyTime)
         squares[currentIndex].classList.remove("frog")
         document.removeEventListener("keyup", moveFrog)  
     }
@@ -174,8 +172,7 @@ function win() {
         currentFrogs = currentFrogs + 1
         frogsSavedDisplay.textContent = currentFrogs
         clearInterval(timerId)
-        clearInterval(outcomeTimer)  
-        clearInterval(difficultyTime)
+        clearInterval(outcomeTimer) 
         document.removeEventListener("keyup", moveFrog)
         }
 }
