@@ -116,6 +116,7 @@ startButton.addEventListener("click", () => {
         timerId = null
         document.removeEventListener("keyup", moveFrog)
     } else {
+        currentTime = 15
         timerId = setInterval(autoMoveCrocs, 1000)
         document.addEventListener("keyup", moveFrog)
         outcomeTimer = setInterval (checkOutcomes, 50)
