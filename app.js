@@ -3,9 +3,6 @@ const resultDisplay = document.querySelector("#result")
 const startButton = document.querySelector("#start-pause-button")
 const resetButton = document.querySelector("#reset-button")
 const frogsSavedDisplay = document.querySelector("#frogs-saved")
-const easyButton = document.querySelector("#easy")
-const mediumButton = document.querySelector("#medium")
-const hardButton = document.querySelector("#hard") 
 const squares = document.querySelectorAll(".grid div")
 const crocsLeft = document.querySelectorAll(".croc-left")
 const crocsRight = document.querySelectorAll(".croc-right")
@@ -16,8 +13,6 @@ let timerId
 let outcomeTimer 
 let currentTime = 15
 let currentFrogs = 0
-let difficulty = 1000
-let difficultyTime
 
 //moves the frog using the arrow keys, don't let it move outside the parameters
 function moveFrog(e) {
@@ -132,21 +127,6 @@ startButton.addEventListener("click", () => {
         outcomeTimer = setInterval (checkOutcomes, 50)
         }
 })
-
-//when easy button is clicked, set difficulty to 1000 ms
-//easyButton.addEventListener("click", () => {
-// difficultyTime = setInterval(autoMoveCrocs, 1000)
-//})
-
-//when medium button is clicked, set difficulty to 700ms
-//mediumButton.addEventListener("click", () => {
-//difficultyTime = setInterval(autoMoveCrocs, 700)
-//})
-
-//when hard button is clicked, set difficulty to 500ms
-//hardButton.addEventListener("click", () => {
-//difficultyTime = setInterval(autoMoveCrocs, 500)
-//})
 
 //when reset button is clicked, it will reset frog, time and result
 resetButton.addEventListener("click", () => {
