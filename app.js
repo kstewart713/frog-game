@@ -38,14 +38,10 @@ function moveFrog(e) {
 
 }
 
-//displays time
-function timeCountdown() {
-    currentTime--
-    timeLeftDisplay.textContent = currentTime
-}
-
 //automoves the crocodiles (calls the move left and right functions) + displays frogs saved
 function autoMoveCrocs () {
+    currentTime--
+    timeLeftDisplay.textContent = currentTime
     frogsSavedDisplay.textContent = currentFrogs
     crocsLeft.forEach(crocLeft => moveCrocLeft(crocLeft))
     crocsRight.forEach(crocRight => moveCrocRight(crocRight)) 
