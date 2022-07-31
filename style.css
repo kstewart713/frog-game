@@ -28,6 +28,8 @@ body {
     font-size: large;
     color:antiquewhite; 
     background-color: green;
+    text-align: center;
+    align-content: center;
 }
 
 .indexbody {
