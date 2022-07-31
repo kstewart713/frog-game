@@ -14,6 +14,12 @@ body {
     text-align: center;
 }
 
+.indexbody {
+    color:antiquewhite; 
+    background-color: green;
+    text-align: center;  
+}
+
 .grid {
     border: 1px solid black;
     width: 333px;
