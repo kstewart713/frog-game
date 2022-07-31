@@ -2,6 +2,18 @@ h1{
     color: darkgreen;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
+.main {
+    font-family: 'Special Elite', cursive;
+    font-size: large;
+    color:antiquewhite; 
+    background-color: green;
+    text-align: center;
+}
+
 .grid {
     border: 1px solid black;
     width: 333px;
