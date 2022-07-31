@@ -172,7 +172,7 @@ function win() {
         currentFrogs = currentFrogs + 1
         frogsSavedDisplay.textContent = currentFrogs
         clearInterval(timerId)
-        clearInterval(outcomeTimer) 
+        clearInterval(outcomeTimer)
         document.removeEventListener("keyup", moveFrog)
         }
 }
