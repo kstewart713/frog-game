@@ -145,10 +145,10 @@ function lose() {
         squares[currentIndex].classList.contains("c3") 
     ) {
     resultDisplay.textContent = "The frog was eaten!"
-    clearInterval(timerId)
-    clearInterval(outcomeTimer)
     squares[currentIndex].classList.remove("frog")
     document.removeEventListener("keyup", moveFrog)
+    clearInterval(timerId)
+    clearInterval(outcomeTimer)
     }
 }
 
@@ -157,10 +157,11 @@ function notime() {
     if (currentTime <= 0) 
     {
         resultDisplay.textContent = "You ran out of time!"
-        clearInterval(timerId)
-        clearInterval(outcomeTimer)
         squares[currentIndex].classList.remove("frog")
         document.removeEventListener("keyup", moveFrog)  
+        clearInterval(timerId)
+        clearInterval(outcomeTimer)
+        
     }
 }
 
