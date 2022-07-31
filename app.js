@@ -118,11 +118,9 @@ startButton.addEventListener("click", () => {
         clearInterval(outcomeTimer)
         outcomeTimer = null
         timerId = null
-        difficultyTime = null
         document.removeEventListener("keyup", moveFrog)
     } else {
         timerId = setInterval(timeCountdown, 1000)
-        difficultyTime = setInterval(autoMoveCrocs, 1000)
         document.addEventListener("keyup", moveFrog)
         outcomeTimer = setInterval (checkOutcomes, 50)
         }
@@ -135,10 +133,8 @@ resetButton.addEventListener("click", () => {
     squares[currentIndex].classList.add("frog")
     clearInterval(timerId)
     clearInterval(outcomeTimer)
-    clearInterval(difficultyTime)
     outcomeTimer = null
     timerId = null
-    difficultyTime = null
     document.removeEventListener("keyup", moveFrog)
     currentTime = 15
     timeLeftDisplay.textContent = " "
