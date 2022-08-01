@@ -1,0 +1,103 @@
+ul.topnav {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+      background-color: #4a6163;
+    }
+    
+ul.topnav li {float: left;}
+    
+ul.topnav li a {
+      display: block;
+      color: antiquewhite;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+    
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+    
+ul.topnav li a.active {background-color: #04AA6D;}
+    
+ul.topnav li.right {float: right;}
+  
+header {
+    font-family: 'Special Elite', cursive;
+    font-size: large;
+    color:antiquewhite; 
+    background-color: #f9a66c;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+    overflow: auto;
+}
+
+.lifecycle {
+    background-color: #f9a66c;
+    border-color: #f9a66c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.lifecycle:hover{
+    background-color: #f17a7e;
+    border-color: #f17a7e;
+}
+
+.card-body {
+    border: #f17a7e;
+}
+
+.main {
+    padding: 10px;
+    align-items: center;
+}
+
+.card-img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: linear-gradient(to right, antiquewhite , #f9a66c, antiquewhite);
+    height: 30px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #4a6163;
+    font-family: 'Special Elite', cursive;
+    font-size: large;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 100%) {
+      ul.topnav li.right, 
+      ul.topnav li {float: none;}
+}  
