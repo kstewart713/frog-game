@@ -56,16 +56,16 @@ body {
 }
 
 .start-pause-button {
-    height: 30px;
-    width: 100px;
-    color: greenyellow;
+    height: 40px;
+    width: 120px;
+    color: antiquewhite;
     background-color: blue;
 }
 
 .reset-button {
-    height: 30px;
-    width: 100px;
-    color: greenyellow; 
+    height: 40px;
+    width: 120px;
+    color: antiquewhite; 
     background-color: blue;
 }
 
