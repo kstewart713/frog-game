@@ -7,7 +7,7 @@ body {
 }
 
 .game {
-    width: 100%;
+    width: 75%;
     font-family: 'Special Elite', cursive;
     font-size: large;
     color:antiquewhite; 
@@ -16,14 +16,14 @@ body {
 }  
 
 .instructions {
-    width: 100%;
+    width: 75%;
     color:antiquewhite; 
     background-color: green;
     text-align: center;   
 }
 
 .main {
-    width: 100%;
+    width: 75%;
     font-family: 'Special Elite', cursive;
     font-size: large;
     color:antiquewhite; 
@@ -33,7 +33,7 @@ body {
 }
 
 .indexbody {
-    width: 100%;
+    width: 75%;
     color:antiquewhite; 
     background-color: green;
     text-align: center;
