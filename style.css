@@ -1,7 +1,7 @@
 body {
     background-color: antiquewhite;
     height: 100vh;
-    width: 75%;
+    width: 100%;
     display: grid;
     place-items: center;
 }
@@ -56,15 +56,17 @@ body {
 }
 
 .start-pause-button {
-    height: 20px;
-    width: 70px;
+    height: 30px;
+    width: 100px;
     color: greenyellow;
+    background-color: blue;
 }
 
 .reset-button {
-    height: 20px;
-    width: 70px;
+    height: 30px;
+    width: 100px;
     color: greenyellow; 
+    background-color: blue;
 }
 
 .ending-block {
