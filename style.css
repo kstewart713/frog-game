@@ -70,11 +70,19 @@ body {
     background-color: blue;
 }
 
+.start-pause-button:hover{
+    background-color: lightseagreen;
+}
+
 .reset-button {
     height: 30px;
     width: 120px;
     color: antiquewhite; 
     background-color: blue;
+}
+
+.reset-button:hover{
+    background-color: lightseagreen; 
 }
 
 .ending-block {
