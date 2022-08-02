@@ -71,7 +71,7 @@ body {
 }
 
 .start-pause-button:hover{
-    background-color: lightskyblue;
+    background-color: lightblue;
 }
 
 .reset-button {
@@ -82,7 +82,7 @@ body {
 }
 
 .reset-button:hover{
-    background-color: lightskyblue; 
+    background-color: lightblue; 
 }
 
 .ending-block {
