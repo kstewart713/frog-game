@@ -5,7 +5,7 @@ ul.topnav {
       width: 100%;
       overflow: hidden;
       background-color: #333;
-      font-family: TimesNewRoman;
+      font-family: "Times New Roman";
     }
     
 ul.topnav li {float: left;}
@@ -14,7 +14,7 @@ ul.topnav li a {
       display: block;
       color: antiquewhite;
       text-align: center;
-      font-family: TimesNewRoman;
+      font-family: "Times New Roman";
       padding: 14px 16px;
       text-decoration: none;
 }
